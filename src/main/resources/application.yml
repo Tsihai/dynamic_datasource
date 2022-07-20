@@ -6,14 +6,14 @@ spring:
         ds:
             # 主库数据源
             master:
-                url: jdbc:mysql://gz-cynosdbmysql-grp-iggpqhi1.sql.tencentcdb.com:20695/test09?useSSL=false
+                url: jdbc:mysql://localhost:3306/test09?useSSL=false
                 username: root
-                password: Woailiangjiayi!
+                password: root
             # 从库数据源
             slave:
-                url: jdbc:mysql://gz-cynosdbmysql-grp-iggpqhi1.sql.tencentcdb.com:20695/test08?useSSL=false
+                url: jdbc:mysql://localhost:3306/test08?useSSL=false
                 username: root
-                password: Woailiangjiayi!
+                password: root
         # 初始连接数
         initialSize: 5
         # 最小连接池数量
